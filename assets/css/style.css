@@ -99,3 +99,29 @@ hr {
     transform: translateY(1px);
     box-shadow: 1px 1px 0 #C0392B;
 }
+
+@media (max-width: 768px) {
+    .content {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "sidebar"
+            "main"
+            "anchors";
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .anchors {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .sidebar {
+        border-right: none;
+    }
+
+    .gif-flutuante {
+        float: none;
+        width: 100%;
+    }
+}
