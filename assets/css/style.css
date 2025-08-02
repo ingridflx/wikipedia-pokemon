@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:rgb(0, 94, 201); text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-top: solid 1px #cdcdcd;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+.gif-flutuante {
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px; 
+    width: 200px;
+}
+hr {
+    border: none; 
+    height: 1px; 
+    background-color: #cdcdcd;
+    margin: 20px 0;
+}
+.titulo-secao {
+    background-color: #58B0E8;
+    border: 3px solid #005080; 
+    color: white; 
+    font-weight: bold; 
+    text-align: center; 
+    padding: 5px;
+    margin: 20px 0 10px;
+    border-radius: 8px; 
+    box-shadow: 4px 4px 0 #005080;
+    margin-right: 19px
+}
+.botao-neste-artigo {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+    background-color: #E74C3C;
+    color: white;
+    border: 2px solid #C0392B;
+    box-shadow: 2px 2px 0 #C0392B;
+    transition: all 0.2s ease;
+}
+
+.botao-neste-artigo:hover {
+    background-color: #C0392B;
+    border-color: #A93226;
+    box-shadow: 2px 2px 0 #A93226;
+    transform: translateY(-1px);
+}
+
+.botao-neste-artigo:active {
+    transform: translateY(1px);
+    box-shadow: 1px 1px 0 #C0392B;
+}
