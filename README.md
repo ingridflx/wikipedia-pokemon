@@ -1,7 +1,7 @@
 # Wiki Pokémon
 Projeto desenvolvido para praticar HTML e CSS, inspirado no layout da Wikipédia.
 
-🔗 [Acesse o site aqui](https://ingridtkf.github.io/wikipedia-pokemon/)
+🔗 [Acesse o site aqui](https://ingridflx.github.io/wikipedia-pokemon/)
 
 ## Tecnologias usadas
 - HTML5  
