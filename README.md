@@ -1,19 +1,14 @@
-# Módulo 3 - Trilha HTML
+# Wiki Pokémon
+Projeto desenvolvido para praticar HTML e CSS, inspirado no layout da Wikipédia.
 
-**Título:** Recriando Wikipedia, com um layout melhor :)
+🔗 [Acesse o site aqui](https://ingridtkf.github.io/wikipedia-pokemon/)
 
-## Objetivo
-Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
+## Tecnologias usadas
+- HTML5  
+- CSS3  
 
-## Desafio
-Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
-
-Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quiserem. O intuito aqui é divertir, e ao mesmo tempo aprender com o desafio.
-
-Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
-
-## Links úteis
-- [Download do NVDA](https://www.nvaccess.org/download/)
-- [Wikipedia](https://pt.wikipedia.org/)
-
+## O que aprendi
+- Estruturar páginas com cabeçalhos e seções
+- Criar menus laterais e de navegação
+- Publicar sites no GitHub Pages
 
